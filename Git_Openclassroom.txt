@@ -23,3 +23,4 @@ git commit --amend -m "Votre nouveau message"  --> Modifie le msg du dernier com
 
 git reset --hard?  --> Annule ts les changements non commités
 
+git push origin master
