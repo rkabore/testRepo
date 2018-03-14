@@ -7,20 +7,22 @@ git add checklist-vacances.md
 
 git add .
 
-git commit -m "AjoutÈ ma checklist-vacances.md (woohoo!)"
+git commit -m "Ajout√© ma checklist-vacances.md (woohoo!)"
 
 git log
 
-git commit -a -m "AjoutÈ itinÈraire dans checklist-vacances.md"
+git commit -a -m "Ajout√© itin√©raire dans checklist-vacances.md"
 
 git checkout SHADuCommit
 
 git checkout master
 
-git revert SHADuCommit  --> crÈe un nouveau commit faisant l'inverse du prÈcÈdent
+git revert SHADuCommit  --> cr√©e un nouveau commit faisant l'inverse du pr√©c√©dent
 
 git commit --amend -m "Votre nouveau message"  --> Modifie le msg du dernier commit
 
-git reset --hard?  --> Annule ts les changements non commitÈs
+git reset --hard?  --> Annule ts les changements non commit√©s
 
 git push origin master
+
+git pull origin master
