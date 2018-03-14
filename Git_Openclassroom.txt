@@ -1,0 +1,25 @@
+git config --global user.name "Votre nom ou pseudo"
+git config --global user.email "votre@email.com"
+
+mkdir monPremierRepo
+
+git add checklist-vacances.md
+
+git add .
+
+git commit -m "Ajouté ma checklist-vacances.md (woohoo!)"
+
+git log
+
+git commit -a -m "Ajouté itinéraire dans checklist-vacances.md"
+
+git checkout SHADuCommit
+
+git checkout master
+
+git revert SHADuCommit  --> crée un nouveau commit faisant l'inverse du précédent
+
+git commit --amend -m "Votre nouveau message"  --> Modifie le msg du dernier commit
+
+git reset --hard?  --> Annule ts les changements non commités
+
